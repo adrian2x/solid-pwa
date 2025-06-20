@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <nav class='navbar bg-base-300 w-full'>
+    <nav class='navbar bg-base-300 w-full min-h-[40px]'>
       <div class='flex-none'>
-        <label for='my-drawer-3' aria-label='open sidebar' class='btn btn-square btn-ghost'>
+        <label for='nav-drawer' class='btn btn-square btn-ghost' aria-label='open sidebar'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
