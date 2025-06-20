@@ -24,14 +24,7 @@
   "lang": "en-US",
   "orientation": "portrait",
   "dir": "ltr",
-  "display_override": [
-    "window-controls-overlay",
-    "minimal-ui",
-    "fullscreen"
-  ],
+  "display_override": ["window-controls-overlay", "minimal-ui", "fullscreen"],
   "screenshots": [],
-  "categories": [
-    "utilities",
-    "productivity"
-  ]
+  "categories": ["utilities", "productivity"]
 }

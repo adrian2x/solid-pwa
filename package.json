@@ -7,12 +7,14 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prettier": "npx prettier --write ."
   },
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.7",
     "daisyui": "^5.0.43",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4.0.7",
     "typescript": "^5.7.2",
     "vite": "^6.0.0",
