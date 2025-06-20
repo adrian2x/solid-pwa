@@ -2,8 +2,8 @@
 const appShellAssets = [
   '/',
   '/index.html',
-  '/main.js',
-  '/styles.css',
+  '/assets/index.js',
+  '/assets/index.css',
   '/icons/favicon.png',
   '/icons/apple-180.png',
   '/icons/icon-192.png',
@@ -15,7 +15,7 @@ self.addEventListener('install', (event) => {
   console.log('Service worker installed')
 
   let cacheUrls = async () => {
-    const cache = await caches.open('mypwav1')
+    const cache = await caches.open('solidpwa-v1')
     return cache.addAll(appShellAssets)
   }
   event.waitUntil(cacheUrls())
